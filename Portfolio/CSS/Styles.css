@@ -334,10 +334,21 @@ body {
         line-height: 27px;
         letter-spacing: -0.0525em;
     }
-    .float-test {
+    .float-test li {
         float: left;
+        margin-right:10px;
+        list-style: none;
+        padding-top: 5px;
+    
+
     }
+    .float-test {
+        margin-left: 20px;
+    }
+
 }
+
+
 
 
 /* stylelint-enable no-descending-specificity */
